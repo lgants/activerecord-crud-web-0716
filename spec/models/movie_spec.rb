@@ -11,6 +11,7 @@ describe 'Movie' do
     expect(Movie.superclass).to eq(ActiveRecord::Base)
   end
 
+
   context 'Movie.new' do
     let(:movie) { Movie.new }
     it 'has a title' do
